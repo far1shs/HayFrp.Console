@@ -19,6 +19,10 @@
               label="进入仪表盘"
               style="margin-top: 20px;" size="small"/>
     </div>
+
+    <footer>
+      <span>Copyright © 2025 HayFrp and Far1sh.All Rights Reserved.</span>
+    </footer>
   </div>
 </template>
 
@@ -27,3 +31,16 @@ import {useRouter} from "vue-router";
 
 const router = useRouter();
 </script>
+
+<style scoped>
+footer {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  opacity: 0.5;
+  font-size: 12px;
+}
+</style>
