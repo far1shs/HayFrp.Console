@@ -1,0 +1,35 @@
+{
+  "name": "hayfrp-console",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hcaptcha/vue3-hcaptcha": "^1.3.0",
+    "@icon-park/vue-next": "^1.4.2",
+    "@primevue/themes": "^4.2.5",
+    "axios": "^1.7.9",
+    "lib-flexible": "^0.3.2",
+    "primevue": "^4.2.5",
+    "qrcode-vue3": "^1.7.1",
+    "typescript-cookie": "^1.0.6",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@primevue/auto-import-resolver": "^4.2.5",
+    "@types/js-cookie": "^3.0.6",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "sass": "^1.83.4",
+    "typescript": "~5.6.2",
+    "unplugin-vue-components": "^28.0.0",
+    "vite": "^6.0.5",
+    "vite-plugin-pwa": "^0.21.1",
+    "vue-tsc": "^2.2.0"
+  }
+}
