@@ -8,9 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Button: typeof import('primevue/button')['default']
-    ChatPopover: typeof import('./src/components/chat-popover.vue')['default']
     Checkbox: typeof import('primevue/checkbox')['default']
-    ClientPopover: typeof import('./src/components/client-popover.vue')['default']
     Drawer: typeof import('primevue/drawer')['default']
     InputNumber: typeof import('primevue/inputnumber')['default']
     InputText: typeof import('primevue/inputtext')['default']
@@ -29,7 +27,6 @@ declare module 'vue' {
     Tag: typeof import('primevue/tag')['default']
     Toast: typeof import('primevue/toast')['default']
     ToggleSwitch: typeof import('primevue/toggleswitch')['default']
-    TunnelDrawer: typeof import('./src/components/new-tunnel-drawer.vue')['default']
     UserPopover: typeof import('./src/components/user-popover.vue')['default']
   }
   export interface ComponentCustomProperties {
