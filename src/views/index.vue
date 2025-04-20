@@ -20,8 +20,12 @@
               style="margin-top: 20px;" size="small"/>
     </div>
 
+    <Button class="info" size="small" style="width: 32px; height: 32px">
+      <i-info :size="18" style="margin-top: 2px"/>
+    </Button>
+
     <footer>
-      <span>Copyright © 2025 HayFrp and Far1sh.All Rights Reserved.</span>
+      <span>Copyright © 2025 HayFrp and Far1sh.All Rights Reserved. 干草FRP与Far1sh版权所有 当前阶段 5.0 Preview 如果有bug等问题及时反馈</span>
     </footer>
   </div>
 </template>
@@ -33,9 +37,18 @@ const router = useRouter();
 </script>
 
 <style scoped>
-footer {
+.info {
   position: absolute;
-  bottom: 10px;
+  bottom: 18px;
+  right: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  /* position: absolute;
+  bottom: 10px; */
   display: flex;
   align-items: center;
   justify-content: center;
