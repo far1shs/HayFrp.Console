@@ -32,6 +32,4 @@ jobs:
         if: success()
         with:
           name: build-output
-          path: |
-            dist/
-            public/
+          path: dist/
